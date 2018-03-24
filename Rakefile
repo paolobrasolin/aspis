@@ -12,5 +12,5 @@ task :shields do
   Gist.gist contents.to_json,
             access_token: ENV["GIST_TOKEN"],
             update: ENV["GIST_ID"],
-            filename: "#{repo_name}.json",
+            filename: "#{repo_name}.json"
 end
